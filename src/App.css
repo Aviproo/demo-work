@@ -1,0 +1,259 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.deliverydetails {
+  text-align: initial;
+}
+.filled_detail {
+  display: flex;
+  justify-content: start;
+}
+.filled_address {
+  text-align: initial;
+  margin: 10px;
+}
+.cnt {
+  margin-top: 10px;
+  width: 100%;
+  align-items: center;
+  background: blue;
+  color: white;
+  height: 50px;
+  font-size: larger;
+  border: 0;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+.ctmname {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: larger;
+  font-weight: 500;
+}
+.input {
+  border: 0;
+  background-color: whitesmoke;
+  padding: 5px;
+  width: 100%;
+}
+.alldiv {
+  margin-top: 10px;
+}
+.phonemail {
+  display: flex;
+  justify-content: space-between;
+}
+.phoneinput {
+  border: 0;
+  background-color: whitesmoke;
+}
+.header_img {
+  height: 15px;
+  width: 15px;
+}
+.orderfilling {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 5px;
+}
+
+.one {
+  text-align: left;
+  margin-left: 10px;
+  background-color: #eee1e182;
+  width: 100px;
+}
+.nikeair {
+  margin: 2px;
+  background-color: #eee1e182;
+  text-align: initial;
+}
+.price {
+  text-align: initial;
+}
+.price_price {
+  text-align: initial;
+  background-color: #eee1e182;
+}
+.product_quality {
+  display: flex;
+  justify-content: left;
+}
+.product_price {
+  width: 100%;
+}
+.red {
+  text-align: initial;
+  background-color: #eee1e182;
+  width: 111px;
+}
+.product_name {
+  width: 110px;
+  text-align: left;
+}
+.place_order {
+  font-size: 21px;
+  font-weight: 600;
+}
+.product_img {
+  padding: 10px;
+  border: 1px dashed #00000080;
+}
+.productbutton {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.productbutton button {
+  width: 82px;
+  height: 33px;
+  border-radius: 10px;
+  border: 0;
+  background: blueviolet;
+  color: white;
+}
+.product {
+  padding: 10px;
+  width: 202px;
+  margin-left: 40%;
+}
+.product_picture {
+  width: 118px;
+}
+
+.clothing {
+  display: flex;
+}
+.headerlist {
+  text-decoration: none;
+  color: #488587;
+  font-size: 10px;
+}
+.allitem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.shopka {
+  width: 100px;
+  height: 24px;
+}
+.item_cost {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+.item_address {
+  font-size: 8px;
+  color: rgba(0, 0, 0, 0.497);
+}
+.item {
+  width: 120px;
+  height: 213px;
+  margin: 5px;
+  padding: 5px;
+}
+.item:hover {
+  cursor: pointer;
+}
+.img {
+  width: 120px;
+  height: 100px;
+}
+.dpt_head {
+  width: 75%;
+  text-decoration: none;
+  border: 1px solid blue;
+  height: 25px;
+  color: blue;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.search_item {
+  margin-left: 10px;
+}
+.link {
+  text-decoration: none;
+}
+.customer {
+  color: blue;
+}
+.dscp {
+  text-align: initial;
+  width: 120px;
+  height: auto;
+  font-size: 10px;
+  color: rgb(34, 110, 113);
+}
+.sign {
+  background: #ece2e226;
+  border: 1px solid #00000036;
+  width: 64px;
+
+  height: 26px;
+  color: blue;
+}
+.searchbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid rgba(0, 0, 0, 0.167);
+}
+.mainbody {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.body {
+  display: flex;
+}
+.department {
+  width: 30%;
+  border: 1px solid rgba(0, 0, 0, 0.127);
+}
+.rightbody {
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.103);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
